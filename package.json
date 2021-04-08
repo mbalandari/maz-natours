@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mbalandari/maz-natours/issues"
   },
-  "homepage": "https://github.com/mbalandari/maz-natours#readme"
+  "homepage": "https://github.com/mbalandari/maz-natours#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
 }
