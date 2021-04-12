@@ -112,6 +112,13 @@ body {
 .u-margin-top-huge {
   margin-top: 10rem; }
 
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; }
+
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -342,7 +349,6 @@ body {
   .story__img {
     height: 100%;
     transform: translateX(-4rem) scale(1.4);
-    backface-visibility: hidden;
     transition: all .5s; }
   .story__text {
     transform: skewX(12deg); }
@@ -356,8 +362,7 @@ body {
     font-size: 1.7rem;
     text-align: center;
     opacity: 0;
-    transition: all .5s;
-    backface-visibility: hidden; }
+    transition: all .5s; }
   .story:hover .story__caption {
     opacity: 1;
     transform: translate(-50%, -50%); }
@@ -432,5 +437,6 @@ body {
   margin-top: -10rem; }
 
 .section-stories {
+  position: relative;
   padding: 15rem 0;
   background-color: #f7f7f7; }
